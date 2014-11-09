@@ -1,6 +1,6 @@
 set nocompatible
 filetype off
-
+set t_Co=256
 set rtp+=$HOME/.vim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -14,6 +14,8 @@ Plugin 'wting/rust.vim'
 call vundle#end()
 "call pathogen#infect()
 filetype plugin indent on
+
+
 
 "start
 let g:airline#extensions#tabline#enabled = 1
@@ -39,10 +41,11 @@ set hlsearch
 
 "linenumbers
 set number
-highlight LineNr term=bold cterm=NONE ctermfg=LightGrey ctermbg=Black gui=NONE guifg=DarkGrey guibg=None
+highlight LineNr term=bold cterm=NONE ctermfg=LightGrey ctermbg=LightYellow gui=NONE guifg=DarkGrey guibg=None
 
 "syntastic
 let g:syntastic_haskell_checkers=['ghc-mod', 'hlint']
+hi SpellBad ctermbg=Black
 
 "keys
 ""bashstuff
