@@ -10,6 +10,7 @@ Plugin 'Shougo/unite.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
 Plugin 'wting/rust.vim'
+Plugin 'scrooloose/nerdtree'
 
 call vundle#end()
 "call pathogen#infect()
