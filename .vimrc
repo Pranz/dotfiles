@@ -61,7 +61,7 @@ inoremap <c-x> <c-o>:x<CR>
 
 ""tab navigation
 nnoremap <C-t>     :tabnew<CR>
-inoremap <C-t>     <C-o>:tabnew<CR>
+inoremap <C-t>     <Esc>:tabnew<CR>
 inoremap <C-right>   <C-o>:tabnext<CR>
 nnoremap <C-right>   :tabnext<CR>
 inoremap <C-left> <C-o>:tabprevious<CR>
@@ -77,3 +77,7 @@ inoremap <C-l> <right>
 
 "clear search pattern
 nnoremap <C-p> :let @/ = ""<CR>
+
+"NERDTree
+inoremap <C-g> <C-o>:NERDTreeToggle<CR>
+nnoremap <C-g> :NERDTreeToggle<CR>
