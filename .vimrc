@@ -11,6 +11,9 @@ Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
 Plugin 'wting/rust.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'dag/vim2hs'
+Plugin 'pbrisbin/vim-syntax-shakespeare'
+Plugin 'godlygeek/tabular'
 
 call vundle#end()
 "call pathogen#infect()
@@ -42,11 +45,12 @@ set hlsearch
 
 "linenumbers
 set number
-highlight LineNr term=bold cterm=NONE ctermfg=LightGrey ctermbg=LightYellow gui=NONE guifg=DarkGrey guibg=None
+highlight LineNr term=bold cterm=NONE ctermfg=LightGrey ctermbg=Black gui=NONE guifg=DarkGrey guibg=None
 
 "syntastic
 let g:syntastic_haskell_checkers=['ghc-mod', 'hlint']
 hi SpellBad ctermbg=Black
+hi clear Conceal
 
 "keys
 ""bashstuff
