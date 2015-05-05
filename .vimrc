@@ -14,6 +14,9 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'dag/vim2hs'
 Plugin 'pbrisbin/vim-syntax-shakespeare'
 Plugin 'godlygeek/tabular'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'digitaltoad/vim-jade'
+Plugin 'wavded/vim-stylus'
 
 call vundle#end()
 "call pathogen#infect()
@@ -31,14 +34,17 @@ let g:airline_enable_syntastic  = 1
 set laststatus=2
 set mouse=a
 
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
 set hidden
 syntax on
 
 
 set dir=~/.vim/swap
+
+"no folding
+set nofoldenable
 
 "highlight search
 set hlsearch
@@ -48,9 +54,9 @@ set number
 highlight LineNr term=bold cterm=NONE ctermfg=LightGrey ctermbg=Black gui=NONE guifg=DarkGrey guibg=None
 
 "syntastic
-let g:syntastic_haskell_checkers=['ghc-mod', 'hlint']
 hi SpellBad ctermbg=Black
 hi clear Conceal
+let g:syntastic_haskell_checkers = ['hlint']
 
 "keys
 ""bashstuff
