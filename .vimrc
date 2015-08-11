@@ -18,12 +18,14 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'wavded/vim-stylus'
 Plugin 'derekelkins/agda-vim'
+Plugin 'klen/python-mode'
 
 call vundle#end()
 "call pathogen#infect()
 filetype plugin indent on
 
-
+"pymode
+let g:pymode_rope_completion = 1
 
 "start
 let g:airline#extensions#tabline#enabled = 1
