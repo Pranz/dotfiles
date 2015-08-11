@@ -17,6 +17,7 @@ Plugin 'godlygeek/tabular'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'wavded/vim-stylus'
+Plugin 'derekelkins/agda-vim'
 
 call vundle#end()
 "call pathogen#infect()
@@ -51,7 +52,7 @@ set hlsearch
 
 "linenumbers
 set number
-highlight LineNr term=bold cterm=NONE ctermfg=LightGrey ctermbg=Black gui=NONE guifg=DarkGrey guibg=None
+highlight LineNr term=bold cterm=NONE ctermfg=LightGrey ctermbg=DarkGrey gui=NONE guifg=DarkGrey guibg=None
 
 "syntastic
 hi SpellBad ctermbg=Black
