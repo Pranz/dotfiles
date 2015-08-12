@@ -25,7 +25,7 @@ call vundle#end()
 filetype plugin indent on
 
 "pymode
-let g:pymode_rope_completion = 1
+let g:pymode_rope_completion = 0
 
 "start
 let g:airline#extensions#tabline#enabled = 1
