@@ -1,0 +1,22 @@
+Config { font = "xft:Terminus:size=8:style=Bold:antialias=true"
+       , bgColor = "black"
+       , fgColor = "grey"
+       , position = TopW L 90
+       , commands = [ Run Cpu ["-L","3","-H","50","--normal","green","--high","red"] 10
+                    , Run Memory ["-t","Mem: <usedratio>%"] 10
+                    , Run Date "%a %b %_d %H:%M" "date" 10
+                    , Run StdinReader
+                    , Run Weather "ESGG" [ "--template", "<skyCondition> | <fc=#7D9DFF><tempC></fc>°C | <fc=#7D9DFF><rh></fc>% | <fc=#7D9DFF><pressure></fc>hPa"
+                                         ] 36000
+                    , Run DynNetwork     [ "--template" , "<dev>: <tx>kB/s|<rx>kB/s"
+                             , "--Low"      , "1000"       -- units: kB/s
+                             , "--High"     , "5000"       -- units: kB/s
+                             , "--low"      , "darkgreen"
+                             , "--normal"   , "darkorange"
+                             , "--high"     , "darkred"
+                             ] 10
+                    ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = "%StdinReader% }{ %cpu% | %memory%    %dynnetwork%    <fc=#ee9a00>%date%</fc>    %ESGG%"
+       }

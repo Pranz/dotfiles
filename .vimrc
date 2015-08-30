@@ -43,6 +43,8 @@ set expandtab
 set hidden
 syntax on
 
+"80 line width
+set cc=80
 
 set dir=~/.vim/swap
 
@@ -55,6 +57,8 @@ set hlsearch
 "linenumbers
 set number
 highlight LineNr term=bold cterm=NONE ctermfg=LightGrey ctermbg=DarkGrey gui=NONE guifg=DarkGrey guibg=None
+hi Search ctermbg=DarkGrey
+hi Error ctermbg=DarkGrey
 
 "syntastic
 hi SpellBad ctermbg=Black

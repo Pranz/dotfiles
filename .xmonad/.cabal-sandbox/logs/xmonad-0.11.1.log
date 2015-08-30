@@ -1,0 +1,41 @@
+Configuring xmonad-0.11.1...
+Building xmonad-0.11.1...
+Preprocessing library xmonad-0.11.1...
+[1 of 8] Compiling XMonad.StackSet  ( XMonad/StackSet.hs, dist/dist-sandbox-5eb35c31/build/XMonad/StackSet.o )
+[2 of 8] Compiling XMonad.Core      ( XMonad/Core.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Core.o )
+
+XMonad/Core.hs:34:1: Warning:
+    Module ‘Prelude’ does not export ‘catch’
+[3 of 8] Compiling XMonad.Layout    ( XMonad/Layout.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Layout.o )
+[4 of 8] Compiling XMonad.Operations ( XMonad/Operations.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Operations.o )
+[5 of 8] Compiling XMonad.ManageHook ( XMonad/ManageHook.hs, dist/dist-sandbox-5eb35c31/build/XMonad/ManageHook.o )
+
+XMonad/ManageHook.hs:21:1: Warning:
+    Module ‘Prelude’ does not export ‘catch’
+[6 of 8] Compiling XMonad.Config    ( XMonad/Config.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Config.o )
+[7 of 8] Compiling XMonad.Main      ( dist/dist-sandbox-5eb35c31/build/XMonad/Main.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Main.o )
+[8 of 8] Compiling XMonad           ( XMonad.hs, dist/dist-sandbox-5eb35c31/build/XMonad.o )
+In-place registering xmonad-0.11.1...
+Preprocessing executable 'xmonad' for xmonad-0.11.1...
+[ 1 of 10] Compiling XMonad.StackSet  ( XMonad/StackSet.hs, dist/dist-sandbox-5eb35c31/build/xmonad/xmonad-tmp/XMonad/StackSet.o )
+[ 2 of 10] Compiling XMonad.Core      ( XMonad/Core.hs, dist/dist-sandbox-5eb35c31/build/xmonad/xmonad-tmp/XMonad/Core.o )
+
+XMonad/Core.hs:34:1: Warning:
+    Module ‘Prelude’ does not export ‘catch’
+[ 3 of 10] Compiling XMonad.Layout    ( XMonad/Layout.hs, dist/dist-sandbox-5eb35c31/build/xmonad/xmonad-tmp/XMonad/Layout.o )
+[ 4 of 10] Compiling XMonad.Operations ( XMonad/Operations.hs, dist/dist-sandbox-5eb35c31/build/xmonad/xmonad-tmp/XMonad/Operations.o )
+[ 5 of 10] Compiling XMonad.ManageHook ( XMonad/ManageHook.hs, dist/dist-sandbox-5eb35c31/build/xmonad/xmonad-tmp/XMonad/ManageHook.o )
+
+XMonad/ManageHook.hs:21:1: Warning:
+    Module ‘Prelude’ does not export ‘catch’
+[ 6 of 10] Compiling XMonad.Config    ( XMonad/Config.hs, dist/dist-sandbox-5eb35c31/build/xmonad/xmonad-tmp/XMonad/Config.o )
+[ 7 of 10] Compiling XMonad.Main      ( dist/dist-sandbox-5eb35c31/build/xmonad/xmonad-tmp/XMonad/Main.hs, dist/dist-sandbox-5eb35c31/build/xmonad/xmonad-tmp/XMonad/Main.o )
+[ 8 of 10] Compiling Paths_xmonad     ( dist/dist-sandbox-5eb35c31/build/autogen/Paths_xmonad.hs, dist/dist-sandbox-5eb35c31/build/xmonad/xmonad-tmp/Paths_xmonad.o )
+[ 9 of 10] Compiling XMonad           ( XMonad.hs, dist/dist-sandbox-5eb35c31/build/xmonad/xmonad-tmp/XMonad.o )
+[10 of 10] Compiling Main             ( Main.hs, dist/dist-sandbox-5eb35c31/build/xmonad/xmonad-tmp/Main.o )
+Linking dist/dist-sandbox-5eb35c31/build/xmonad/xmonad ...
+Creating package registration file: /tmp/pkgConf-xmonad-0.1123820.1
+Installing library in
+/home/pranz/.xmonad/.cabal-sandbox/lib/x86_64-linux-ghc-7.8.4/xmonad-0.11.1
+Installing executable(s) in /home/pranz/.xmonad/.cabal-sandbox/bin
+Registering xmonad-0.11.1...

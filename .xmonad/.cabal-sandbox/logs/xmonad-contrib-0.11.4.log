@@ -1,0 +1,29 @@
+Configuring xmonad-contrib-0.11.4...
+Building xmonad-contrib-0.11.4...
+Preprocessing library xmonad-contrib-0.11.4...
+[  1 of 226] Compiling XMonad.Util.StringProp ( XMonad/Util/StringProp.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Util/StringProp.o )
+[  2 of 226] Compiling XMonad.Util.Replace ( XMonad/Util/Replace.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Util/Replace.o )
+[  3 of 226] Compiling XMonad.Util.CustomKeys ( XMonad/Util/CustomKeys.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Util/CustomKeys.o )
+[  4 of 226] Compiling XMonad.Layout.ThreeColumns ( XMonad/Layout/ThreeColumns.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Layout/ThreeColumns.o )
+[  5 of 226] Compiling XMonad.Layout.StackTile ( XMonad/Layout/StackTile.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Layout/StackTile.o )
+[  6 of 226] Compiling XMonad.Layout.Spiral ( XMonad/Layout/Spiral.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Layout/Spiral.o )
+[  7 of 226] Compiling XMonad.Layout.Roledex ( XMonad/Layout/Roledex.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Layout/Roledex.o )
+[  8 of 226] Compiling XMonad.Layout.ResizableTile ( XMonad/Layout/ResizableTile.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Layout/ResizableTile.o )
+[  9 of 226] Compiling XMonad.Layout.OneBig ( XMonad/Layout/OneBig.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Layout/OneBig.o )
+[ 10 of 226] Compiling XMonad.Layout.MultiToggle ( XMonad/Layout/MultiToggle.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Layout/MultiToggle.o )
+[ 11 of 226] Compiling XMonad.Layout.MultiColumns ( XMonad/Layout/MultiColumns.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Layout/MultiColumns.o )
+[ 12 of 226] Compiling XMonad.Layout.MosaicAlt ( XMonad/Layout/MosaicAlt.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Layout/MosaicAlt.o )
+[ 13 of 226] Compiling XMonad.Layout.Mosaic ( XMonad/Layout/Mosaic.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Layout/Mosaic.o )
+[ 14 of 226] Compiling XMonad.Layout.LayoutBuilder ( XMonad/Layout/LayoutBuilder.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Layout/LayoutBuilder.o )
+[ 15 of 226] Compiling XMonad.Layout.HintedGrid ( XMonad/Layout/HintedGrid.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Layout/HintedGrid.o )
+[ 16 of 226] Compiling XMonad.Layout.Simplest ( XMonad/Layout/Simplest.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Layout/Simplest.o )
+[ 17 of 226] Compiling XMonad.Util.Stack ( XMonad/Util/Stack.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Util/Stack.o )
+[ 18 of 226] Compiling XMonad.Layout.Groups ( XMonad/Layout/Groups.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Layout/Groups.o )
+[ 19 of 226] Compiling XMonad.Layout.GridVariants ( XMonad/Layout/GridVariants.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Layout/GridVariants.o )
+[ 20 of 226] Compiling XMonad.Layout.Grid ( XMonad/Layout/Grid.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Layout/Grid.o )
+[ 21 of 226] Compiling XMonad.Layout.FixedColumn ( XMonad/Layout/FixedColumn.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Layout/FixedColumn.o )
+[ 22 of 226] Compiling XMonad.Layout.Dishes ( XMonad/Layout/Dishes.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Layout/Dishes.o )
+[ 23 of 226] Compiling XMonad.Util.Invisible ( XMonad/Util/Invisible.hs, dist/dist-sandbox-5eb35c31/build/XMonad/Util/Invisible.o )
+
+XMonad/Util/Invisible.hs:31:59:
+    Not in scope: type constructor or class ‘Applicative’
