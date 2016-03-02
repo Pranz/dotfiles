@@ -44,7 +44,7 @@ set hidden
 syntax on
 
 "80 line width
-set cc=80
+"set cc=80
 
 set dir=~/.vim/swap
 
